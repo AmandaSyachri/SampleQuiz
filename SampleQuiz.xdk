@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/template-blank-cordova-ad-project/sample.zip",
       "projectGuid": "fa0bfd05-1b8e-4fda-920c-99723b49cfde",
-      "lastModifiedDate": 1474959262883,
+      "lastModifiedDate": 1474964341628,
       "creationDate": 1474958451888
     },
     "XDK-app-designer": "true",
@@ -86,39 +86,57 @@
         "name_": "Android",
         "preferences_": {
           "android-minSdkVersion": "14",
-          "android-targetSdkVersion": "21",
+          "android-targetSdkVersion": "19",
           "android-installLocation": "auto",
-          "android-signed": true
+          "android-signed": true,
+          "Fullscreen": false,
+          "Orientation": "portrait"
         },
         "isActive_": true,
-        "certificateId_": "",
+        "certificateId_": "nVmUrfiF-0Ksgp3SupErBw2",
         "appName_": "SampleQuiz",
-        "appID_": "xdk.intel.blank.ad.template.crosswalk",
+        "appID_": "com.asac.samplequiz",
         "appAccess_": {
           "mode": "whitelist",
-          "network": [
-            "*"
-          ],
-          "intents": [
-            "http://*/*",
-            "https://*/*",
-            "tel:*",
-            "sms:*",
-            "mailto:*",
-            "geo:*",
-            "market:*"
-          ],
-          "navigation": []
+          "network": [],
+          "intents": [],
+          "navigation": [],
+          "properties": {}
         },
-        "icons_": [],
+        "icons_": [
+          {
+            "density": "ldpi",
+            "relPath": "package-assets/ico-36x36.png",
+            "width": 36,
+            "height": 36
+          },
+          {
+            "density": "mdpi",
+            "relPath": "package-assets/ico-48x48.png",
+            "width": 48,
+            "height": 48
+          },
+          {
+            "density": "hdpi",
+            "relPath": "package-assets/ico-72x72.png",
+            "width": 72,
+            "height": 72
+          },
+          {
+            "density": "xhdpi",
+            "relPath": "package-assets/ico-96x96.png",
+            "width": 96,
+            "height": 96
+          }
+        ],
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "cordovaCLIVersion_": "6.2.0",
         "crosswalkVersion_": "19",
         "appVersion_": "0.0.1",
-        "appAuthor_": "Intel XDK",
-        "appDescription_": "Template to develop a Cordova mobile web app using the App Designer UI editor.",
+        "appAuthor_": "ASAC",
+        "appDescription_": "Intel XDK first hand practice",
         "appVersionCode_": "1",
         "signed_": true
       },
